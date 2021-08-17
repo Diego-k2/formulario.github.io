@@ -1,0 +1,75 @@
+<!doctype html>
+    <html lang pt-br>
+        <head>
+            <title></title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        </head>
+
+        <body>
+
+            <header class="logo">
+                <img src="img/logo.png" id="imagem">
+                <p><u>Formulario de Cadastro Ninja</u></p>
+            </header>
+
+            <div id="form">
+                <form>
+                        <div class="quest">
+
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" required autofocus >
+
+                            <label for="sobrenome">Sobrenome:</label>
+                            <input type="text" id="sobrenome" >
+
+                        </div>
+
+                        <div class="quest">
+
+                            <label for="cpf">CPF:</label>
+                            <input type="number" id="cpf" placeholder="N° Apenas">
+
+                            <label for="Data"> Data de Nascimento: </label>
+                            <input type="date" id="Data" class="box">
+
+                        </div>
+
+                        <div class="quest">
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" class="box" placeholder="exemplo@exemplo.com" required>
+
+                            <label for="Telefone"> Telefone: </label>
+                            <input type="tel" id="Telefone" placeholder="(xx)xxxx-xxxx" >
+
+                        </div>
+
+                        <div class="quest">
+
+                            <label for="Anexo">Anexe algo:</label>
+                            <input type="file" id="Anexo" class="box">
+
+                        </div>
+                        
+                        <div class="quest">
+                            <label for="Anexo">Comentários:</label> <br>
+                            <textarea name="Comentários" class="area-texto"></textarea>
+
+                        </div>
+                
+                        <input type="submit" value="Enviar Dados" class="submit"> </input>
+
+
+                </form>
+            </div>
+
+            <footer>
+                &copy; <small><i>Todos direitos reservado</i></small> &copy;
+            </footer>
+
+        </body>
+
+
+    </html>

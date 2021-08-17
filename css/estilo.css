@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+input {
+    width: 100px;
+}
+
+body {
+    background-color: #FA5858;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    background-color:white;
+    margin: 70px auto 0px auto;
+    text-align: center;
+}
+
+#imagem {
+    height: 150px;
+    width: 250px;   
+}
+
+.quest {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 7px;
+    text-align: center;
+   
+}
+.logo {
+    width: 10px,auto, 10px auto;
+    text-align: center;
+    background-color: rgb(255, 249, 249);
+    margin-bottom: 30px;
+   
+}
+
+.box {
+    width: 125px;
+}
+
+.area-texto {
+    width: 400px;
+    height: 100px;
+}
+
+.submit{
+    float: right;
+}
+#form {
+    width: 620px;
+	margin: 40px auto 10px auto;
+}
+
+
